@@ -9,7 +9,7 @@ const Contact = () => {
         <div className='space-y-8'>
             <h2 className='text-5xl'  data-aos="fade-down-left">Get In Touch</h2>
             <p className='text-gray-400 text-[18px] pt-2'  data-aos="fade-down-left">
-                If you have any questions or would like to collaborate, please don't hesitate to reach out.
+                If you have any questions or would like to collaborate, please don&rsquo;t hesitate to reach out.
             </p>
             <div className='flex gap-3 items-center'  data-aos="fade-down-left">
               <IoMdMail  size={30}/>Mahrali@gmail.com
