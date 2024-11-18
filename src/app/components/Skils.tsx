@@ -4,7 +4,7 @@ const Skils = () => {
 	return (
 		<div className="container pt-32 sm:px-0 px-10 overflow-hidden">
 			<div className="grid md:grid-cols-2 gap-20 items-center">
-				<div data-aos="fade-down-left">
+				<div >
 					<h2 className="text-3xl md:text-4xl">I Work With Technologies</h2>
 					<p className="text-gray-400 pt-2">
 						As a passionate developer, I work with a diver se set of technologies that empower me to create
@@ -19,9 +19,9 @@ const Skils = () => {
 				<div>
 					<div className="grid grid-cols-2 text-blue-400 text-3xl sm:text-4xl">
 						<div className="space-y-2">
-							<h2 data-aos="fade-down-left">Typescript</h2>
-							<h2 data-aos="fade-down-left">React.js</h2>
-							<h2 data-aos="fade-down-left">Next.js</h2>
+							<h2 >Typescript</h2>
+							<h2 >React.js</h2>
+							<h2 >Next.js</h2>
 						</div>
 						<div className="space-y-2">
 							<h2>Tailwind</h2>

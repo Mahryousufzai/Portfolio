@@ -20,8 +20,8 @@ const Hero = () => {
 				<div>
 					<div className="sm:text-[84px] sm:px-0 px-5 tracking-tight font-bold text-[18vw]">
 						<p>Hello,</p>
-						<p data-aos="fade-down-right">I&apos;m</p>
-						<p data-aos="fade-down-left">Mehar Ali</p>
+						<p >I&apos;m</p>
+						<p >Mehar Ali</p>
 					</div>
 				</div>
 			</div>
