@@ -1,11 +1,10 @@
 import React from 'react';
-import Navbar from './Navbar';
 import Image from 'next/image';
 
 const Hero = () => {
 	return (
 		<div className="flex sm:flex-row flex-col sm:justify-between lg:mx-32 md:mx-20 sm:h-screen py-10 sm:mt-0 mt-10 overflow-hidden">
-			<Navbar /> 
+		
 			<div>
 				<Image
 					src={'/main.png'}
@@ -28,5 +27,6 @@ const Hero = () => {
 		</div>
 	);
 };
+
 
 export default Hero;
