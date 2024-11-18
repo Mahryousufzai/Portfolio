@@ -4,7 +4,7 @@ import { BsFillTelephoneInboundFill}  from "react-icons/bs";
 
 const Contact = () => {
   return (
-    <div id='contact' className='pt-32 container'>
+    <div id='contact' className='pt-32 container overflow-hidden sm:px-0 px-10'>
       <div className='grid md:grid-cols-2 gap-10'>
         <div className='space-y-8'>
             <h2 className='text-5xl'  data-aos="fade-down-left">Get In Touch</h2>
@@ -22,23 +22,23 @@ const Contact = () => {
           <div className='flex flex-col gap-1'  data-aos="fade-down-left">
             <label htmlFor="name">Name</label>
             <input type="text"
-            className='h-[40px] bg-transparent border border-red-100' 
+            className='h-[40px] bg-transparent border border-blue-500' 
             id='name'/>
           </div>
           <div className='flex flex-col gap-1'  data-aos="fade-down-left">
             <label htmlFor="email">Email</label>
             <input type="text"
-            className='h-[40px] bg-transparent border border-acc' 
+            className='h-[40px] bg-transparent border border-blue-500' 
             id='email'/>
           </div>
           <div className='flex flex-col gap-1'  data-aos="fade-down-left">
             <label htmlFor="msg">Message</label>
             <textarea
-            className='bg-transparent border border-red-100' 
+            className='bg-transparent border border-blue-500' 
             id='msg' rows={7}>
             </textarea>
           </div>
-          <button className='bg-red-900 p-2 px-6'  data-aos="fade-down-left">Send</button>
+          <button className='bg-blue-900 p-2 px-6'  data-aos="fade-down-left">Send</button>
         </div>
       </div>
     </div>

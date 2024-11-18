@@ -49,7 +49,7 @@ const data = [
 ];
 export default function Projects() {
     return (
-        <div id='projects' className='container mx-auto pt-32'>
+        <div id='projects' className='container mx-auto pt-32 overflow-hidden'>
             <Heading title="My projects" />
             <div className='grid gap-10 md:grid-cols-2 lg:grid-cols-3 place-items-center'>
                 {data.map((el) => (

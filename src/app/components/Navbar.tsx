@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import { LuMenu} from "react-icons/lu";
 import { useState } from "react";
@@ -8,10 +9,10 @@ const Navbar = () => {
     setIsMenuOpen(!isMenuOpen)
   }
   return (
-    <div className='container pt-8'>
+    <div className='container sm:py-4 py-3'>
         <div className='flex justify-between items-center'>
-            <div className='text-xl font-medium'>Mahr Ali</div>
-            <ul className='gap-10 lg:gap-16 hidden md:flex'>
+            <div className='text-2xl font-bold'>Mahr Ali</div>
+            <ul className='gap-10 lg:gap-10 hidden md:flex'>
             <li className='menuLink'><a href='#hero'>Home</a></li>
               <li className='menuLink'><a href='#about'>About</a></li>
               <li className='menuLink'><a href='#projects'>Projects</a></li>

@@ -1,26 +1,31 @@
-import React from 'react'
+import React from 'react';
 import Navbar from './Navbar';
-
+import Image from 'next/image';
 
 const Hero = () => {
-  return (
-    
-    <div id="hero" className='min-h-screen bg-no-repeat bg-[url(/my_image.png.png)]  bg-cover'
-    style={{backgroundSize: "20%", backgroundPosition: "left 100px top 100px "}}
- >
-    <Navbar />
-    <div className='container grid lg:grid-cols-2 h-[calc(100vh-60px)]'>
-      <div className='hidden lg:block'></div>
-      <div className='text-[55px] sm:text-[80px] font-bold leading-tight flex justify-between items-center'>
-        <div>
-          <p  data-aos="fade-down-right">I&apos;m</p>
-          <p data-aos="fade-down-left" >Mehar</p>
-          <p data-aos="fade-down-left">Ali</p>
-        </div>
-      </div>
-    </div>
-    </div>
-  );
+	return (
+		<div className="flex sm:flex-row flex-col sm:justify-between lg:mx-32 md:mx-20 sm:h-screen py-10 sm:mt-0 mt-10 overflow-hidden">
+			<div>
+				<Image
+					src={'/main.png'}
+					alt="mainimage"
+					width={100}
+					height={100}
+					className="sm:w-[250px] w-[60%] h-fit mx-auto"
+				/>
+			</div>
+
+			<div>
+				<div>
+					<div className="sm:text-[84px] sm:px-0 px-5 tracking-tight font-bold text-[18vw]">
+						<p>Hello,</p>
+						<p data-aos="fade-down-right">I&apos;m</p>
+						<p data-aos="fade-down-left">Mehar Ali</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	);
 };
 
-export default Hero
+export default Hero;

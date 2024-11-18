@@ -12,7 +12,7 @@ interface PropsType {
 
 const Card: React.FC<PropsType> = ({ title, desc, img, tags }) => {
     return (
-        <div className='border-2 border-red-900 p-2 w-[400px] sm:w-[350px]  shadow-md mb-4' data-aos="fade-down-left">
+        <div className='border-2 border-blue-400 p-2 w-[80vw] sm:w-[340px]  shadow-md mb-4' data-aos="fade-down-left">
             <div>
                 <Image
                     className='w-full  rounded-t-lg h-[300px] overflow-hidden'

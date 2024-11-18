@@ -6,7 +6,8 @@
     body{
         color:#fff;
         
-           background: linear-gradient(120deg, #523c87, #955319);  
+           background:   linear-gradient(135deg, #143a52, #539fd9, #1e3a5f, #0d233f);
+
 }
 
 @layer components{
